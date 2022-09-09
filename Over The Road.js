@@ -12,6 +12,8 @@ When n = 3, 1 is opposite 6, 3 opposite 4, and 5 opposite 2.
 
 Given your house number address and length of street n, give the house number on the opposite side of the street. */
 
+/* return (n*2+1)-address; */
+
 function overTheRoad(address, n) {
     let odd = 1;
     let leftStreet = [];
