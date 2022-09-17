@@ -18,5 +18,9 @@ function generateShape(integer) {
         //newArray[i].join('');
     }
     console.log(newArray);
+
+    let newArray2 = newArray.map(el=> el.join(''));
+    console.log(newArray2);
+
 }
 generateShape(4);
